@@ -22,7 +22,7 @@ if(!$p){
   die(hex2bin('47494638396101000100900000ff000000000021f90405100000002c00000000010001000002020401003b'));
 }
 
-// Log the request if p is set
+// Log the request as CSV
 function log_request(){
   // You may need to pre-create pixel.log and set writable permissions
   $logfile = "pixel.log";
