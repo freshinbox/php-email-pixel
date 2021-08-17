@@ -2,7 +2,8 @@
 
 Open tracker for email with external CSS pixel option. 
 
-https://freshinbox.com/blog/how-to-build-your-own-email-open-tracking-pixel/
+For more context <a href="https://freshinbox.com/blog/how-to-build-your-own-email-open-tracking-pixel/">read this blog post</a>.
+
 
 Parameters:
 - p:  A unique value to track.
