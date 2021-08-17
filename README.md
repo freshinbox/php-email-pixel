@@ -1,6 +1,7 @@
 # php-email-pixel
 
 Open tracker for email with external CSS pixel option. 
+
 https://freshinbox.com/blog/how-to-build-your-own-email-open-tracking-pixel/
 
 Parameters:
@@ -14,8 +15,8 @@ Logging notes:
 - Request contains "css_pixel", it will be logged as "CSS pixel fetched". 
 
 To use regular pixel:
-<img src="https://myserver.com/path/to/pixel.php?p=mypixel" width=1>
+    <img src="https://myserver.com/path/to/pixel.php?p=mypixel" width=1>
 
 To use External CSS pixel (only for email clients that support external CSS):
-<link rel="stylesheet" href="https://myserver.com/path/to/pixel.php?p=mypixel&ext_css=1">
+    <link rel="stylesheet" href="https://myserver.com/path/to/pixel.php?p=mypixel&ext_css=1">
 
